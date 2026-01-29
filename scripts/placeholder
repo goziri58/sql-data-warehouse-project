@@ -1,1 +1,14 @@
+/*
+============================================
+Create Database and Schema
+============================================
+Script Purpose:
+    This script creates a new database name 'Data_warehouse_project' after checking if it already exists.
+    If the database exists' it will drop it and recreate another. Additionally, the script sets up three schemas 
+    within the database: 'bronze, silver, gold'.
 
+Warning:
+    running this script will drop the entire 'data_warehouse_project' if it exists.
+    all data in the database will be permanently deleted. Proceed with caution and 
+    ensure you have proper backups before running this script.
+*/
