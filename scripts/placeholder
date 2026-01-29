@@ -12,3 +12,14 @@ Warning:
     all data in the database will be permanently deleted. Proceed with caution and 
     ensure you have proper backups before running this script.
 */
+
+
+
+-- 1. find and drop any data_warehouse_project database
+
+drop database if exists data_warehouse_project with (force);
+
+
+-- 2. creates a new DataWarehouse database 
+
+create database DataWarehouse;
