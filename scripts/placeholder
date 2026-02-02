@@ -23,3 +23,9 @@ drop database if exists data_warehouse_project with (force);
 -- 2. creates a new DataWarehouse database 
 
 create database DataWarehouse;
+
+-- 3. creates schemas
+
+create schema bronze;
+create schema silver;
+create schema gold;
